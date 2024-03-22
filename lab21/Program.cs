@@ -40,6 +40,13 @@ namespace lab21
                             Console.WriteLine();
                             break;
                         }
+                    case 6:
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine(a / b);
+                            Console.WriteLine();
+                            break;
+                        }
                 }
             }
         }
