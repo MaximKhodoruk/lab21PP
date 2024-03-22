@@ -10,7 +10,24 @@ namespace lab21
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Выберите действие:\n1 - ввести А\n2 - ввести В\n3 - выполнить операцию +\n4 - выполнить операцию -\n5 - выполнить операцию *\n6 - выполнить операцию /\n7 - закончить программу");
+            int a = 0;
+            int b = 0;
+            bool exit = false;
+            while (!exit)
+            {
+                Console.WriteLine("Выберите действие:\n1 - ввести А\n2 - ввести В\n3 - выполнить операцию +\n4 - выполнить операцию -\n5 - выполнить операцию *\n6 - выполнить операцию /\n7 - закончить программу");
+                int sw = Convert.ToInt32(Console.ReadLine());
+                switch (sw)
+                {
+                    case 3:
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine(a + b);
+                            Console.WriteLine();
+                            break;
+                        }
+                }
+            }
         }
     }
 }
