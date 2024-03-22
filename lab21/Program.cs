@@ -19,6 +19,14 @@ namespace lab21
                 int sw = Convert.ToInt32(Console.ReadLine());
                 switch (sw)
                 {
+                    case 1:
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("Введите А");
+                            a = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine();
+                            break;
+                        }
                     case 3:
                         {
                             Console.WriteLine();
