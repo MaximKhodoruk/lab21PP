@@ -63,6 +63,11 @@ namespace lab21
                             Console.WriteLine();
                             break;
                         }
+                    case 7:
+                        {
+                            exit = true;
+                            break;
+                        }
                 }
             }
         }
