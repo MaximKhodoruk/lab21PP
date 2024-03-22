@@ -27,6 +27,14 @@ namespace lab21
                             Console.WriteLine();
                             break;
                         }
+                    case 2:
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("Введите В");
+                            b = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine();
+                            break;
+                        }
                     case 3:
                         {
                             Console.WriteLine();
