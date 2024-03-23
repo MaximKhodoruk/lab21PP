@@ -10,6 +10,7 @@ namespace lab21
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Лабораторная работа № 21");
             int a = 0;
             int b = 0;
             bool exit = false;
